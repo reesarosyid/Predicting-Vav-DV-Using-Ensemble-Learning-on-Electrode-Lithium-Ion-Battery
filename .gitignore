@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets (MP_API_KEY)
+.env
+
+# Data hasil scraping (besar, bisa dibuat ulang lewat scraping.py)
+Dataset/
+
+# Output training CatBoost
+catboost_info/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
